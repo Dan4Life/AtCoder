@@ -1,15 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// dp[i] = minimum length of subsequence that CANNOT be made starting from ith character in string s
-// nx[i][j] = smallest position 'x' starting from ith character such that s[x]=j (a=0,b=1...)
+// dp[i] = minimum length of subsequence that CANNOT be made starting from ith character of s
+// nx[i][j] = smallest position 'k' starting from ith character of s such that s[k]=j (where a=0,b=1...)
 
 set<int> S[27]; string s;
 int nx[200010][27], dp[200010];
 
 int main(){
     cin >> s; s+='z'; int n = (int)s.size();
-    
+
     for(int i = 0; i < 26; i++) S[i].insert(n);
     for(int i = 0; i < n; i++) S[s[i]-'a'].insert(i);
 
