@@ -4,7 +4,7 @@ using namespace std;
 #define pb push_back
 const int maxn = (int)2e5+10;
 string s;
-map<int,int> calc;
+unordered_map<int,int> calc;
 int dp[maxn], f[maxn];
 
 // Really nice trick learnt
