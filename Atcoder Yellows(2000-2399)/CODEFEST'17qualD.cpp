@@ -1,12 +1,3 @@
-#include <bits/stdc++.h>
-using namespace std;
-#define int long long
-#define pb push_back
-const int maxn = (int)2e5+10;
-string s;
-unordered_map<int,int> calc;
-int dp[maxn], f[maxn];
-
 // Really nice trick learnt
 // Slow dp is straightforward, ie
 // dp[i] = ans for first i characters
@@ -20,6 +11,15 @@ int dp[maxn], f[maxn];
 // Using normal dp still TLES, so use an array such that
 // A[x] = min answer for all dp[i] such that the prefix substr xor = x
 // Then it becomes straightforward to just check all 26 possible "correct" xor
+
+#include <bits/stdc++.h>
+using namespace std;
+#define int long long
+#define pb push_back
+const int maxn = (int)2e5+10;
+string s;
+unordered_map<int,int> calc;
+int dp[maxn], f[maxn];
 
 int32_t main(){
     cin >> s; int n = (int)s.size(); calc[0]=0;

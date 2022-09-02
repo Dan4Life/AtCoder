@@ -1,8 +1,8 @@
-#include <bits/stdc++.h>
-using namespace std;
-
 // dp[i] = minimum length of subsequence that CANNOT be made starting from ith character of s
 // nx[i][j] = smallest position 'k' starting from ith character of s such that s[k]=j (where a=0,b=1...)
+
+#include <bits/stdc++.h>
+using namespace std;
 
 set<int> S[27]; string s;
 int nx[200010][27], dp[200010];

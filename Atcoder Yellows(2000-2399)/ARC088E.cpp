@@ -1,3 +1,6 @@
+// Solution: https://pitsbuffersolution.com/compro/atcoder/arc088e.php
+// Alternate Solution(Impl is a bit weird tho): https://ykmaku.hatenablog.com/entry/2018/10/21/170709
+
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
@@ -7,9 +10,6 @@ string s; int cnt;
 vector<int> S[27];
 vector<pair<int,int>> V;
 int fenwick[maxn];
-
-// Solution: https://pitsbuffersolution.com/compro/atcoder/arc088e.php
-// Alternate Solution(Impl is a bit weird tho): https://ykmaku.hatenablog.com/entry/2018/10/21/170709
 
 void update(int x, int v){
     for(; x<maxn; x+=(x&-x))
