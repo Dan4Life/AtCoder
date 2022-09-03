@@ -52,7 +52,7 @@ int32_t main(){
         for(auto x : adj[i]){
             if(x.fi<i) continue; // avoid overcounting
             int u = i, v = x.fi, c = x.se;
-            if(dis[0][u]+dis[1][v]+c!=dis[0][T]) swap(u,v); //it could be S->v->u->T instead
+            if(dis[0][u]+dis[1][v]+c!=dis[0][T]) swap(u,v); // it could be S->v->u->T instead
             if(dis[0][u]+dis[1][v]+c!=dis[0][T]) continue; // not in shortest path
             if(abs(dis[0][u]-dis[1][v])>=c) continue; // they dont meet through that edge
             X+=sq(dp[0][u]*dp[1][v]), X%=MOD;
