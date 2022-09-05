@@ -20,15 +20,14 @@ Plus, it may be useful for someone else that needs help in a hard problem.
 
 **How far will you go with this?**
 
-I firstly want to solve at least 200 Yellows.
-Then I want to solve ALL Oranges after that. This is all for now :)
+I firstly want to solve at least 200 Yellows, then all Oranges afterwards. This is all for now :)
 Hopefully I'm alive and have the motivation to continue solving them.
 Rougly solving 2 problems per day on average.
 
 
 **Now, as for harder problems ie. Reds,Bronzes,Silvers,Golds:**
 
-I also want to solve ALL of them, but that will be after August(Due to IOI).
+I also want to solve ALL of them, but that will be after August, 2023(Due to IOI).
 This is too far in the future so I won't comment about this.
 Can't be saying shit until i finish Oranges.
 
