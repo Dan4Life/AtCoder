@@ -1,3 +1,6 @@
+// Naive DP runs in O(N*max_B*C*C) which is too slow (N=max_B=C=400)
+// We can improve to O(N*max_B*C) by prefix sums speedup because the states form a range and the formula can be found by simple math
+// Memory limit is still exceeded, so we use rollover dp trick, where we 'rollover' the indices as we only use dp[i-1][x][x]s from dp[i][x][x]
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
@@ -5,9 +8,6 @@ const int maxn = (int)401;
 const int MOD = (int)1e9+7;
 int n, c, a[maxn], b[maxn], pref[maxn][maxn], dp[2][maxn][maxn];
 
-// Naive DP runs in O(N*max_B*C*C) which is too slow (N=max_B=C=400)
-// We can improve to O(N*max_B*C) by prefix sums speedup because the states form a range and the formula can be found by simple math
-// Memory limit is still exceeded, so we use rollover dp trick, where we 'rollover' the indices as we only use dp[i-1][x][x]s from dp[i][x][x]
 int32_t main(){
     cin >> n >> c;
     for(int i = 1; i <= n; i++) cin >> a[i];
