@@ -1,6 +1,10 @@
-// For any query {a,b}, it is always better to go to the rightmost hotel as much as possible, 
-// until we reach a hotel that is reachable by b
-// We can use binary lifting to compute the answers greedily
+/*
+Solved by myself
+For any query {a,b}, it is always better to go to the rightmost hotel as much as possible, 
+until we reach a hotel that is reachable by b
+We can use binary lifting to compute the answers greedily
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long

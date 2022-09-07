@@ -1,4 +1,7 @@
-// Same as official editorial
+/*
+Solved partially with editorial(but mostly without help)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long

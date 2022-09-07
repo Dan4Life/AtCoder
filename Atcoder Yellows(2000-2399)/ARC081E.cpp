@@ -1,5 +1,8 @@
-// dp[i] = minimum length of subsequence that CANNOT be made starting from ith character of s
-// nx[i][j] = smallest position 'k' starting from ith character of s such that s[k]=j (where a=0,b=1...)
+/*
+Solved with editorial
+dp[i] = minimum length of subsequence that CANNOT be made starting from ith character of s
+nx[i][j] = smallest position 'k' starting from ith character of s such that s[k]=j (where a=0,b=1...)
+*/
 
 #include <bits/stdc++.h>
 using namespace std;

@@ -1,12 +1,15 @@
-// Root the tree at the node with the max degree
-// For every subtree rooted at x, say we have k children
-// We need to pick at least one antenna from at least k-1 of the children
-// if we have a straight line, we can just pick any vertex
-// else we dfs into each subtree that isnt a straight line
-// Its certain each "non-straight" subtree is going to have at least one antenna
-// It is also better to pick k-1 children instead of k children whenever possible
-// Therefore we can discard one subtree that is "straight", if there is any.
-// This doesnt necessarily work if we root at a subtree with just degree of 3 :/
+/*
+Solved by myself
+Root the tree at the node with the max degree
+For every subtree rooted at x, say we have k children
+We need to pick at least one antenna from at least k-1 of the children
+if we have a straight line, we can just pick any vertex
+else we dfs into each subtree that isnt a straight line
+Its certain each "non-straight" subtree is going to have at least one antenna
+It is also better to pick k-1 children instead of k children whenever possible
+Therefore we can discard one subtree that is "straight", if there is any.
+This doesnt necessarily work if we root at a subtree with just degree of 3 :/
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
