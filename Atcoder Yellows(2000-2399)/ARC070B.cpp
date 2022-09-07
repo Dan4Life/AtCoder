@@ -5,7 +5,7 @@ For every element 'A_i', the element is NECESSARY if there is a subset without t
 the subset sum 'x' satisfies this condition: k-A_i <= x < k.
 Doing this naively is O(N^3), how to speedup?
 We can apply dp for every prefix and suffix(dp1 and dp2) and use two pointers to speed it up as N,K<=5000
-Now we can just find x using bruteforce for dp1 and dp2. We can also use binary search or bitmask speedup
+Now we can just find x using bruteforce for dp1 and dp2. We can also use binary search or bitmask speedup like in editorial
 */
 
 #include <bits/stdc++.h>
