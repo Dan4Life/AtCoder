@@ -1,6 +1,7 @@
 /*
 Solved with editorial
 */
+
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long

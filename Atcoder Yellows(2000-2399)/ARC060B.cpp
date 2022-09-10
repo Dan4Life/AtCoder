@@ -10,6 +10,7 @@ We can bruteforce x knowing that x can be at most sqrt(n) (because b>=sqrt(n))
 and make ans as small as possible if f(b,n)=s after substituting current x in equation
 Make sure to handle b=1 case
 */
+
 #include <bits/stdc++.h>
 using namespace std;
 #define int long long
