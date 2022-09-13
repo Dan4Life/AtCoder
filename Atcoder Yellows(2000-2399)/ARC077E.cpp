@@ -1,6 +1,6 @@
 /* 
 Solved by myself
-Say we pick a random X, the X contributes as thus for each adjacent pair of numbers:
+Say we pick a random X, then that X contributes as thus for each adjacent pair of numbers:
 if(a[i]<a[i+1])
     if(a[i]<X and X<=a[i+1]) 
         add a[i+1] - X + 1;  // Better to use fav button, then forward button till a[i+1]
