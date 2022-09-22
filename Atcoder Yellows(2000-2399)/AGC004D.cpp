@@ -69,7 +69,6 @@ int32_t main()
     }
     sort(all(v)); reverse(all(v));
     for(auto u : v){
-        if(u.first==k) continue;
         if(vis[u.second]) continue;
         int x = u.second, cnt = k-1;
         while(!vis[x] and cnt--) x=par[x];
