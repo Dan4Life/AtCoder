@@ -9,7 +9,7 @@ If we cant do it, answer is no
 After we're done with all {X[i], i} there will be n-i is to be filled for each i
 To do that, just assign all the is to positions > X[i]
 If we can't do it, answer is no
-else print. Everything can be simulated with sets in O(N^2logN) or ppinter-like in O(N^2) //Why is N<=500 lol
+else print. Everything can be simulated with sets in O(N^2logN) or 2 pointers to simulate lowerbound in O(N^2) //Why is N<=500 lol
 */
 
 #include <bits/stdc++.h>
