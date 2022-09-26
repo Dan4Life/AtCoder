@@ -1,5 +1,5 @@
 /*
-Solved with editorial
+Solved with help (editorial)
 Notice that if b>sqrt(n), there are at most 2 digits
 there is exactly one digit if b = n+1(when s=n), other cases is 2 digits(cornercase)
 else we can just bruteforce b in O(sqrt(n))

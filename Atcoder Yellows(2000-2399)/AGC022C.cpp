@@ -1,5 +1,5 @@
 /*
-Solved with editorial
+Solved with help (editorial)
 To reduce to O(N^3), just use a deque as shown below to prevent re-building graph every time
 */
 

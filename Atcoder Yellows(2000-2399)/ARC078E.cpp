@@ -1,5 +1,5 @@
 /*
-Solved partially with external help (cornercases)
+Solved with help (partially with external help for cornercases)
 Basically this: https://codeforces.com/blog/entry/53305?#comment-373508
 */
 

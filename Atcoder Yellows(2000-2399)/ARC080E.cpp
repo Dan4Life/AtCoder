@@ -1,5 +1,5 @@
 /*
-Solved mostly by myself(except the toposort part :/)
+Solved with help (mostly by myself, except the toposort part :/)
 Basically we can solve the problem greedily in reverse
 When we greedily find the smallest pairs of integers using segment tree like this:
 Lets denote the optimal pair as {f,s} for current range {l,r}, then:

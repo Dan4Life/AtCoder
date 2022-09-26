@@ -1,5 +1,5 @@
 /*
-Solved with editorial
+Solved with help (editorial)
 This problem is actually standard network flow problem
 We can model the grid as a bipartite graph where the ith row is in group A and the jth col is in group B
 A leaf node at the {i,j} is the same as matching row i to col j with capacity of 1

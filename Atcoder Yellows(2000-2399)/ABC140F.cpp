@@ -1,5 +1,5 @@
 /*
-Solved with external help(This problem is easy smh)
+Solved with help (external help, this problem is easy smh)
 Basically assign greedily, make each slime produce spawn with health as big as possible
 */
 

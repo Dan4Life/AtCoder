@@ -1,5 +1,5 @@
 /*
-Solved by myself(just 1 tiny bug)
+Solved by myself (just 1 tiny bug)
 Same as editorial
 */
 

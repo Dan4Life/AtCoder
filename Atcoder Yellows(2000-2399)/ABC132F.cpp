@@ -1,5 +1,5 @@
 /*
-Solved by myself, but had to check implementation
+Solved by myself (but had to check implementation)
 Same as official editorial
 */
 

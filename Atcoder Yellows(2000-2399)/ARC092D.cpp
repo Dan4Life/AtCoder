@@ -1,5 +1,5 @@
 /*
-Solved with editorial
+Solved with help (editorial)
 */
 
 #include <bits/stdc++.h>

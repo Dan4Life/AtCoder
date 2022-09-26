@@ -1,5 +1,5 @@
 /*
-Solved with editorial
+Solved with help (editorial)
 Really nice trick learnt
 Slow dp is straightforward, ie dp[i] = ans for first i characters
 State transition is dp[i] = min(dp[i], dp[x]+1) where its possible to form a palindrome from s[x+1...i]

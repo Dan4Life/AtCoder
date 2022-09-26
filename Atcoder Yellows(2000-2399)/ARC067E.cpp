@@ -1,5 +1,5 @@
 /*
-Solved with external help
+Solved with help (external help)
 dp[i][j] is number of ways to pick from first i people, groups consisting of AT LEAST j people each
 dp[i][j] = dp[i][j-1]*comb(i,k*j)*(number of ways to arrange k groups of j people each)
 the last two expressions can be done using dp

@@ -1,5 +1,5 @@
 /*
-Solved with editorial
+Solved with help (editorial)
 Say you put all subsets on a line, including empty set
 We can pair each set and its complementary set giving a total of 2^(n-1) pairs
 The sum of each pair is fixed as total_sum of array

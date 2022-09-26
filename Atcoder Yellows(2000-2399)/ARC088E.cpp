@@ -1,5 +1,5 @@
 /*
-Solved with external help
+Solved with help (external help)
 Solution: https://pitsbuffersolution.com/compro/atcoder/arc088e.php
 Alternate Solution(Impl is a bit weird tho): https://ykmaku.hatenablog.com/entry/2018/10/21/170709
 */
